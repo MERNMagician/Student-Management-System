@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: Open Sans;
+  background: #345995;
+}
+header {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+header h2 {
+  padding: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background: white;
+}
+.box {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 80%;
+}
+.box p {
+  font-size: 13px;
+  opacity: 0.7;
+}
+.box label {
+  font-weight: bold;
+}
+.box input {
+  padding: 20px;
+  font-family: Fira Code;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  background: grey;
+  color: white;
+}
+.box input::placeholder {
+  color: white;
+}
+form button {
+  padding: 1rem;
+  width: 80%;
+  font-family: Fira Code;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-register {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 10px;
+}
+.btn-register a {
+  color: black;
+  text-decoration: none;
+}
